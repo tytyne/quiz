@@ -39,7 +39,7 @@ but {
 
 #marks {
     margin-left: 40%;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 
 tt,
@@ -50,7 +50,7 @@ samp {
 }
 
 .result {
-    display: none
+    display: none padding-top: 40%;
 }
 
 form {
