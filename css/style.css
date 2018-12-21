@@ -51,7 +51,9 @@ samp {
 
 .result {
     display: none;
-    padding-top: 40%;
+    padding-top: 20%;
+    border: 5px solid green;
+    padding-bottom: 20%;
 }
 
 form {
