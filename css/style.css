@@ -102,6 +102,6 @@ button {
     float: right;
 }
 
-jumbotron text-center {
+.jumbotron text-center {
     background-color: green;
 }
