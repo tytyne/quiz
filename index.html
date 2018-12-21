@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <title>QUIZ-BOARD</title>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>My First Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+    <div class="container cont">
+
+        <form id="form">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="">
+                        <ol>
+                            <li> Q 1 - Which of the following is correct about Btures of JavaScript?</li>
+                            <input type="radio" name="question0" value="A" required>A - JavaScript is a lightweight, interpreted programming language.<br>
+                            <input type="radio" name="question0" value="B"> B - JavaScript is designed for creating network-centric applications.<br>
+                            <input type="radio" name="question0" value="C">C - JavaScript is complementary to and integrated with Java.<br>
+                            <input type="radio" name="question0" value="D">D - All of the above
+                            <li> Q 2 - Which of the following is the correct syntax to print a page using JavaScript?</li>
+                            <input type="radio" name="question1" value="A" required> A - window.print();<br>
+                            <input type="radio" name="question1" value="B"> B - browser.print();<br>
+                            <input type="radio" name="question1" value="C"> C - navigator.print();<br>
+                            <input type="radio" name="question1" value="D">D - document.print();
+                            <li> Q 3 - Which built-in method calls a function for each element in the array?</li>
+                            <input type="radio" name="question2" value="A" required> A - while()<br>
+                            <input type="radio" name="question2" value="B"> B - loop()<br>
+                            <input type="radio" name="question2" value="C"> C - forEach()<br>
+                            <input type="radio" name="question2" value="D"> D - None of the above.
+                            <li>Q 4 - Which built-in method returns the calling string value converted to upper case?</li>
+                            <input type="radio" name="question3" value="A" required>A - toUpperCase()<br>
+                            <input type="radio" name="question3" value="B">B - toUpper()<br>
+                            <input type="radio" name="question3" value="C"> C - changeCase(case)<br>
+                            <input type="radio" name="question3" value="D"> D - None of the above.
+                            <li>Q 5 - Which of the following function of String object combines the text of two strings and returns a new string?</li>
+                            <input type="radio" name="question4" value="A" required> A - add()<br>
+                            <input type="radio" name="question4" value="B">B - merge()<br>
+                            <input type="radio" name="question4" value="C"> C - concat()<br>
+                            <input type="radio" name="question4" value="D"> D - append()
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <ol>
+
+                            <li>Q 6 - Which of the following function of String object splits a String object into an array of strings by separating the string into substrings?</li>
+                            <input type="radio" name="question5" value="A" required> A - slice()<br>
+                            <input type="radio" name="question5" value="B"> B - split()<br>
+                            <input type="radio" name="question5" value="C"> C - replace()<br>
+                            <input type="radio" name="question5" value="D"> D - search()
+                            <li>Q 7 - Which of the following function of String object returns the primitive value of the specified object</li>
+                            <input type="radio" name="question6" value="A" required> A - toLocaleUpperCase()<br>
+                            <input type="radio" name="question6" value="B"> B - toUpperCase()<br>
+                            <input type="radio" name="question6" value="C"> C - toString() <br>
+                            <input type="radio" name="question6" value="D"> D - valueOf()
+                            <li>Q 8 - Which of the following function of String object causes a string to be displayed in fixed-pitch font as if it were in a <tt> tag?</li>
+                               <input type="radio" name="question7" value="A" required> A - fixed()<br>
+                               <input type="radio" name="question7" value="B"> B - big()<br>
+                               <input type="radio" name="question7" value="C"> C - blink()<br>
+                               <input type="radio" name="question7" value="D"> D - bold()
+                               <li>Q 9 - Which of the following function of Array object creates a new array with the results
+                                   of
+                                   calling a provided
+                                   function on every element in this array?</li>
+                                   <input type="radio" name="question8" value="A" required>A - push()<br>
+                                   <input type="radio" name="question8" value="B"> B - join()<br>
+                                   <input type="radio" name="question8" value="C"> C - pop()<br>
+                               <input type="radio" name="question8" value="D"> D - map()
+                                
+                                  <li>Q 10 - Which of the following function of Array object sorts the elements of an array?</li>
+                                 <input type="radio" name="question9" value="A" required> A - toSource()<br>
+                               <input type="radio" name="question9" value="B"> B - sort()<br>
+                                 <input type="radio" name="question9" value="C"> C - toString()<br>
+                                  <input type="radio" name="question9" value="D"> D - unshift()
+                               </ol>
+                           </div>
+                       </div>
+               </div>
+                  
+           <button type="submit" onclick="myFunction()" >View Results</button>
+       </form>
+       <div class="result">
+           <h1 id="marks"></h1>
+       </div>
+       <div class="footer">
+           <p>Footer</p>
+       </div>
+              
+   </div>
+</body>
+
+</html>
