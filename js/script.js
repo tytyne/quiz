@@ -12,14 +12,17 @@ function getScore() {
     var score = 0;
     debugger
     for (var i = 0; i < tot; i++)
-        if (getCheckedValue("question" + i) === answers[i]) score += 4; // increment only
+        if (getCheckedValue("question" + i) === answers[i]) score += 1; // increment only
     return score;
 }
 
 $(document).ready(function() {
-    // $('#form').fadeIn(5000)
+    $('form').show()
+    $('.result').hide()
     $('form').submit(function(event) {
         event.preventDefault();
+        $('form').hide();
+        $('.result').show()
         returnScore();
     })
 })
@@ -28,5 +31,5 @@ $(document).ready(function() {
 
 function returnScore() {
     // alert("Your score is " + getScore() + "/" + tot);
-    document.getElementById('marks').innerHTML = "Your score is " + getScore() + "/" + tot;
+    document.getElementById('marks').innerHTML = "Your score is " + "<br>" + getScore() + "/" + tot;
 }
