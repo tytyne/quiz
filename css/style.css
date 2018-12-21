@@ -50,7 +50,8 @@ samp {
 }
 
 .result {
-    display: none padding-top: 40%;
+    display: none;
+    padding-top: 40%;
 }
 
 form {
