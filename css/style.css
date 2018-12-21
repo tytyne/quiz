@@ -54,6 +54,7 @@ samp {
     padding-top: 20%;
     border: 5px solid green;
     padding-bottom: 20%;
+    float: left;
 }
 
 form {
