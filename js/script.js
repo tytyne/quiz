@@ -12,7 +12,7 @@ function getScore() {
     var score = 0;
     debugger
     for (var i = 0; i < tot; i++)
-        if (getCheckedValue("question" + i) === answers[i]) score += 1; // increment only
+        if (getCheckedValue("question" + i) === answers[i]) score += 4; // increment only
     return score;
 }
 
